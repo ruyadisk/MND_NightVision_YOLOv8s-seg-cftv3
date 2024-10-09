@@ -4,7 +4,7 @@ Weight[[url](https://drive.google.com/file/d/1UexfSHYXq6nkm3d0ILm1GKqgJ8pPhGFB/v
 Dataset[[url](https://drive.google.com/drive/folders/1FCTkbf6wC6T-gBGs22uvkfbtqpuJS8L9?usp=sharing)]
 
 
-## Calculate Validation/Test Set Score
+## Calculate Validation/Testing Set Score
 
 ### Step 1: Edit the YAML File
 1. Open the YAML configuration file for your dataset.
@@ -12,9 +12,7 @@ Dataset[[url](https://drive.google.com/drive/folders/1FCTkbf6wC6T-gBGs22uvkfbtqp
 
 ```yaml
 train: path/to/dataset/train   # Path to your training dataset
-val: path/to/dataset/val       # Path to your validation dataset
-# Uncomment the line below and comment out the 'val' line above to calculate test set score
-# val: path/to/dataset/test
+val: path/to/dataset/(val/test)       # Path to your validation/testing dataset, for example, if you want to calculate testing set, then this line should be "val: path/to/dataset/test".
 nc: 6                          # Number of classes (adjust based on your dataset)
 names:
   0: person
