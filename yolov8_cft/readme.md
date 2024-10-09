@@ -11,9 +11,9 @@ Dataset[[url](https://drive.google.com/drive/folders/1FCTkbf6wC6T-gBGs22uvkfbtqp
 2. To calculate the score of the test set, make the following changes:
 
 ```yaml
-train: path/to/dataset/train   # Path to your training dataset
-val: path/to/dataset/(val/test)       # Path to your validation/testing dataset, for example, if you want to calculate testing set, then this line should be "val: path/to/dataset/test".
-nc: 6                          # Number of classes (adjust based on your dataset)
+train: path/to/dataset/train           # Path to your training dataset
+val: path/to/dataset/(val/test)        # Path to your validation/testing dataset, for example, if you want to calculate testing set, then this line should be "val: path/to/dataset/test".
+nc: 6                                  # Number of classes (adjust based on your dataset)
 names:
   0: person
   1: motorcycle
