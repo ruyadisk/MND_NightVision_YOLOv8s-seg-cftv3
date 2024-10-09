@@ -21,4 +21,12 @@ names:
   3: car
   4: truck
   5: bus
+```
+### Step 2: Edit val-seg.py
+#### 1. Open the val-seg.py script in your code editor.
+#### 2. Locate the part of the script that references the model and YAML file paths.
+#### 3. Replace these paths with the correct paths to your trained model and YAML file:
+    Set the path to your model.
+    Set the path to the modified YAML file from Step 1.
 
+### Step 3: Run val-seg.py
