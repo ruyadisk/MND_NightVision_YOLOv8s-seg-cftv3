@@ -1,0 +1,13 @@
+train: /home/mvclab/workspace/MND_NightVision_YOLOv8s-seg-cftv3/ultralytics/dataset/MND/train
+val: /home/mvclab/workspace/MND_NightVision_YOLOv8s-seg-cftv3/ultralytics/dataset/MND/val
+
+nc: 6
+
+names: 
+    0: person
+    1: motorcycle
+    2: bicycle
+    3: car
+    4: truck
+    5: bus
+    
