@@ -13,7 +13,7 @@
 * #### CUDA 11.7
 
 ### Virtual Enviroments Settings (conda)
-* ``` pip install ultralytic ``` 
+* ``` pip install ultralytics ``` 
 
 ### Resource
 * [Pretrained Weight](https://drive.google.com/file/d/1UexfSHYXq6nkm3d0ILm1GKqgJ8pPhGFB/view?usp=sharing)
