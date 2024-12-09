@@ -48,7 +48,7 @@ names:
   ```python train-seg.py --model <path/to/model/yaml> --data <path/to/data/yaml>```
 
 # Validate
-```python train-seg.py --model <path/to/trained/model> --data <path/to/data/yaml>```
+```python val-seg.py --model <path/to/trained/model> --data <path/to/data/yaml>```
 
 # Inference
 ```python predict-seg.py --model <path/to/pretrained/model> --data <path/to/testing/data>```
