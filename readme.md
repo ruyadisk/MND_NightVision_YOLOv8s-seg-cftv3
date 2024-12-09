@@ -7,13 +7,13 @@
 * #### NVIDIA GeForce RTX 3060 12G
 * #### 12th Gen Intel(R) Core(TM) i7-12700
 
-### OS Settings
+### Device Environment Settings
 
 * #### Ubuntu 22.04 LTS
 * #### CUDA 11.7
-* #### python 3.9
 
-### Virtual Enviroments Settings (conda)
+### Virtual Environment Settings (conda)
+* #### python 3.9
 * ``` pip install ultralytics ``` 
 
 ### Resource
