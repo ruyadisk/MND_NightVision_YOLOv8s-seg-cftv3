@@ -11,6 +11,7 @@
 
 * #### Ubuntu 22.04 LTS
 * #### CUDA 11.7
+* #### python 3.9
 
 ### Virtual Enviroments Settings (conda)
 * ``` pip install ultralytics ``` 
